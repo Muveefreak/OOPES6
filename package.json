@@ -9,20 +9,12 @@
   "scripts": {
     "test": "mocha test/tests.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Muveefreak/OOPES6.git"
-  },
   "keywords": [
     "andela",
     "oop"
   ],
   "author": "Akhere Paul",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Muveefreak/OOPES6/issues"
-  },
-  "homepage": "https://github.com/Muveefreak/OOPES6#readme",
   "dependencies": {
     "chai": "^4.0.2",
     "mocha": "^3.4.2"

@@ -1,16 +1,16 @@
 "use strict";
-const myApp = require('../src/main.js');
+const myApp = require('../src/vehicle.js');
 var expect = require('chai').expect;
 
-describe('primeNumbers', function() {  
-    describe('#primeNumbers()', function() {
-        it('should return prime number of 10 to be [2,3,5,7]', function() {
-            expect(myApp.getPrimes(10)).to.eql([ 2, 3, 5, 7 ]);
+describe('tyreCount', function() {  
+    describe('#tyreCount()', function() {
+        it('should return a bicycle', function() {
+            expect(myApp.tyreCount(2)).to.eql('bicycle');
         });
     });
     describe('#primeNumbers()', function() {
-        it('should return a string input to be undefined', function() {
-            expect(myApp.getPrimes(' ')).to.eql('undefined');
+        it('should return a car', function() {
+            expect(myApp.tyreCount(4)).to.eql('car');
         });
     });
 });

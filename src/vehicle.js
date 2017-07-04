@@ -27,19 +27,7 @@ class Tyres extends Vehicle{
         if (value < 0) {
             console.log("This is not a vehicle");
             return false;
-        }
-        else if (value == 2) {
-            console.log("This is a bicycle");
-        }
-        else if (value == 4) {
-            console.log("This is a car");
-        }
-        else if (value == 8) {
-            console.log("This is a truck");
-        }
-        else if (value != 2 || 4 || 8) {
-            console.log("This is not in our scope");
-        }
+        }      
 
         this[numberOfTyres] = value;
     }
@@ -50,9 +38,9 @@ class Tyres extends Vehicle{
     }
 }
 
-module.exports = {
-    tyreCount: tyreCount
-}
+// module.exports = {
+//     countTyres: countTyres
+// }
 
 var bicycle = new Tyres("bicycle");
 var car = new Tyres("car");
